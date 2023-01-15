@@ -75,7 +75,7 @@ if __name__ == "__main__":
     np.random.seed(42)
 
     """ Load the data """
-    data_path = "/media/nikhil/ML/ml_dataset/Retina blood vessel segmentation/"
+    data_path = "/home/dendav/projects/retina-blood-vessel-segmentation/new_data/"
     (train_x, train_y), (test_x, test_y) = load_data(data_path)
 
     print(f"Train: {len(train_x)} - {len(train_y)}")

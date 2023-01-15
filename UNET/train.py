@@ -103,7 +103,6 @@ if __name__ == "__main__":
 
     for epoch in range(num_epochs):
         start_time = time.time()
-
         train_loss = train(model, train_loader, optimizer, loss_fn, device)
         valid_loss = evaluate(model, valid_loader, loss_fn, device)
 
